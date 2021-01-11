@@ -9,9 +9,9 @@ app.use(express.json());
 
 
 const db = mysql.createConnection({
-  user: "root",
-  host: "localhost",
-  password: "popcorn",
+  user: "admin",
+  host: "database-2.cvexlsbjwd6j.us-east-2.rds.amazonaws.com",
+  password: "popcorn91",
   database: "ppl_system",
 });
 
